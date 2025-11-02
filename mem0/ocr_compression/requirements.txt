@@ -1,0 +1,20 @@
+# OCR-Compressed Memory System Requirements
+
+# Core dependencies (image processing)
+Pillow>=10.0.0
+
+# OCR backends (install at least one)
+# Recommended: EasyOCR (best accuracy, GPU support)
+easyocr>=1.7.0
+
+# Alternative OCR backends (optional)
+# paddleocr>=2.7.0  # Fast and accurate, GPU support
+# pytesseract>=0.3.10  # Traditional OCR (requires tesseract binary)
+
+# Additional utilities
+numpy>=1.24.0
+tqdm>=4.65.0  # Progress bars for migration
+
+# Optional: For better performance
+# torch>=2.0.0  # GPU acceleration for EasyOCR
+# torchvision>=0.15.0
